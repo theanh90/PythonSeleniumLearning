@@ -30,7 +30,7 @@ class WebUI():
         assert 1 == 0
 
     def input_email(self):
-        self.wait_id(By.NAME, "loginEmail")
+        self.wait_id(By.NAME, "loginEmail-xxxx")
         self.send_keys("bichphuonggl1997@gmail.com")
 
     def input_password(self):
